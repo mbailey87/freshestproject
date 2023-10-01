@@ -1,0 +1,99 @@
+body, h1, h2, h3, h4, p { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+    .header {
+        background-image: url(Images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+        width: 100%;
+        height: 1000px;
+    }
+.header h1 {
+    display: flex;
+    padding: 10px 0 10px 0;
+    margin: 0 50px 0px 50px;
+    border-bottom: 3px solid white;
+    justify-content: space-between;
+    position: fixed;
+    width: 95%;
+    font-size: x-large;
+    color: #fff;
+}
+.links a {
+    padding-left: 8px;
+    font-size: medium;
+    text-decoration: none;
+    color: #fff;
+ 
+}
+.freshest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+}
+.freshest h3 {
+    font-size: 100px;
+    font-style: normal;
+    padding: 10px 50px 10px 50px;
+    border-bottom: 3px solid #fff;
+    font-weight: 400;
+} 
+.freshest h4 {
+    padding: 50px 10px;
+    font-weight: 100;
+    font-size: 50px;
+}
+.bread {
+    background-color: black;
+    color: aliceblue;
+    height: 300px;
+    width:100%;
+    flex-wrap: wrap;
+}
+.pineapple {
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    height: 300px;
+    width:100%;
+    flex-wrap: wrap;
+}
+.pasta {
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+    height: 300px;
+    width:100%;
+    flex-wrap: wrap;
+}
+.bread img, .pasta img {
+    height: 300px;
+    float: left;
+}
+.pineapple img {
+        height: 300px;
+        float: right;
+}
+.bread h4, .pineapple h4, .pasta h4 {
+    display: flex;
+    align-self: center;
+    padding: 50px 100px 30px 100px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.bread p, .pineapple p, .pasta p {
+    display: flex;
+    align-self: center;
+    padding: 0 100px 100px 100px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
